@@ -1,4 +1,4 @@
-/*
+ /*
 1. Crear una función con nombre (integracion) que use el método de Simpson para
 calcular el valor aproximado de cualquier función . Se recomienda analizar lo
 siguiente:
@@ -7,8 +7,8 @@ siguiente:
   b) ¿Cuáles son los parámetros que recibe la función?
       - Los parámetros que recibe la función son:
         f: una función que toma un Double y devuelve un Double
-        a: un entero
-        b: otro entero
+        a: entero
+        b: entero
 */
 
 def integration(f: Double => Double, a: Int, b: Int): Double =
