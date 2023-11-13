@@ -1,4 +1,4 @@
- /*
+/*
 1. Crear una función con nombre (integracion) que use el método de Simpson para
 calcular el valor aproximado de cualquier función . Se recomienda analizar lo
 siguiente:
