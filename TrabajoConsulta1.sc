@@ -16,7 +16,7 @@ def integration(f: Double => Double, a: Int, b: Int): Double =
   (b - a) * ((f(a) + (4 * valueX) + f(b)) / 6)
 
 def error(valueObtained: Double, valueExpected: Double): Double =
-  valueExpected - valueObtained
+  Math.abs(valueExpected - valueObtained)
 
 /*
 2. Aproxima el valor de las siguientes integrales definidas usando la función
